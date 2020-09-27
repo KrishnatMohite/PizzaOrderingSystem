@@ -1,0 +1,382 @@
+[
+  {
+    "OrderId": "20200926123718",
+    "Item": [
+      {
+        "Id": 9,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Large",
+        "Price": 535.0
+      },
+      {
+        "Id": 10,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      }
+    ],
+    "Type": "1",
+    "Status": "0",
+    "Total": 720.0
+  },
+  {
+    "OrderId": "20200926132054",
+    "Item": [
+      {
+        "Id": 9,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Large",
+        "Price": 535.0
+      },
+      {
+        "Id": 10,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 720.0
+  },
+  {
+    "OrderId": "20200926132446",
+    "Item": [
+      {
+        "Id": 9,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Large",
+        "Price": 535.0
+      },
+      {
+        "Id": 11,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Medium",
+        "Price": 335.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 870.0
+  },
+  {
+    "OrderId": "20200926133131",
+    "Item": [
+      {
+        "Id": 10,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      },
+      {
+        "Id": 11,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Medium",
+        "Price": 335.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 520.0
+  },
+  {
+    "OrderId": "20200926200626",
+    "Item": [
+      {
+        "Id": 4,
+        "Name": "olives",
+        "Type": null,
+        "Size": null,
+        "Price": 80.0
+      },
+      {
+        "Id": 2,
+        "Name": "Cheese",
+        "Type": null,
+        "Size": null,
+        "Price": 60.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 140.0
+  },
+  {
+    "OrderId": "20200926205650",
+    "Item": [
+      {
+        "Id": 1,
+        "Name": "Sauce",
+        "Type": null,
+        "Size": null,
+        "Price": 50.0
+      },
+      {
+        "Id": 2,
+        "Name": "Cheese",
+        "Type": null,
+        "Size": null,
+        "Price": 60.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 110.0
+  },
+  {
+    "OrderId": "20200926212354",
+    "Item": [
+      {
+        "Id": 1,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 165.0
+      },
+      {
+        "Id": 4,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 160.0
+      },
+      {
+        "Id": 7,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 510.0
+  },
+  {
+    "OrderId": "20200926223334",
+    "Item": [
+      {
+        "Id": 1,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 165.0
+      },
+      {
+        "Id": 4,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 160.0
+      },
+      {
+        "Id": 10,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      },
+      {
+        "Id": 2,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Medium",
+        "Price": 305.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 815.0
+  },
+  {
+    "OrderId": "20200926223835",
+    "Item": [
+      {
+        "Id": 1,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 165.0
+      },
+      {
+        "Id": 10,
+        "Name": "pepper barbeque chicken",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 350.0
+  },
+  {
+    "OrderId": "20200927120416",
+    "Item": [
+      {
+        "Id": 4,
+        "Name": "olives",
+        "Type": null,
+        "Size": null,
+        "Price": 80.0
+      },
+      {
+        "Id": 2,
+        "Name": "Crust(medium)",
+        "Type": null,
+        "Size": null,
+        "Price": 120.0
+      }
+    ],
+    "Type": "Custome",
+    "Status": "Open",
+    "Total": 200.0
+  },
+  {
+    "OrderId": "20200927120509",
+    "Item": [
+      {
+        "Id": 1,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 165.0
+      },
+      {
+        "Id": 13,
+        "Name": "chicken golden delight",
+        "Type": "non-Veg",
+        "Size": "Regular",
+        "Price": 235.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 400.0
+  },
+  {
+    "OrderId": "20200927165644",
+    "Item": [
+      {
+        "Id": 7,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      },
+      {
+        "Id": 4,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 160.0
+      },
+      {
+        "Id": 1,
+        "Name": "cheese and corn",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 165.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 510.0
+  },
+  {
+    "OrderId": "20200927170314",
+    "Item": [
+      {
+        "Id": 7,
+        "Name": "fresh veggie",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 185.0
+      },
+      {
+        "Id": 4,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 160.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 345.0
+  },
+  {
+    "OrderId": "20200927172722",
+    "Item": [
+      {
+        "Id": 4,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Regular",
+        "Price": 160.0
+      },
+      {
+        "Id": 6,
+        "Name": "cheese and tomato",
+        "Type": "Veg",
+        "Size": "Large",
+        "Price": 500.0
+      },
+      {
+        "Id": 14,
+        "Name": "chicken golden delight",
+        "Type": "non-Veg",
+        "Size": "Medium",
+        "Price": 450.0
+      }
+    ],
+    "Type": "Regular",
+    "Status": "Open",
+    "Total": 1110.0
+  },
+  {
+    "OrderId": "20200927172746",
+    "Item": [
+      {
+        "Id": 7,
+        "Name": "rosemary",
+        "Type": null,
+        "Size": null,
+        "Price": 80.0
+      },
+      {
+        "Id": 2,
+        "Name": "Crust(medium)",
+        "Type": null,
+        "Size": null,
+        "Price": 120.0
+      }
+    ],
+    "Type": "Custome",
+    "Status": "Open",
+    "Total": 200.0
+  },
+  {
+    "OrderId": "20200927172753",
+    "Item": [
+      {
+        "Id": 2,
+        "Name": "Crust(medium)",
+        "Type": null,
+        "Size": null,
+        "Price": 120.0
+      }
+    ],
+    "Type": "Custome",
+    "Status": "Open",
+    "Total": 120.0
+  }
+]

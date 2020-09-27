@@ -1,0 +1,29 @@
+
+<div *ngIf="showOrderItems">
+<h2>
+    Order Details
+</h2>
+<table>
+  <thead>
+    <th>Item</th>
+    <th *ngIf="showSize">Size</th>
+    <th>Price</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let item of orderedItem">
+          <td>{{item.Name}}</td>
+          <td *ngIf="showSize">{{item.Size}}</td>
+          <td>{{item.Price | currency:'INR'}}</td>
+      </tr>
+      <tr class="footer">
+        <td *ngIf="showSize" colspan="2">Total Bill Amount : </td>
+        <td *ngIf="!showSize">Total Bill Amount : </td>
+        <td>{{totalBillAmt | currency:'INR'}}</td>
+      </tr>
+  </tbody>
+</table>
+<br>
+  <button type="button" class="btn btn-primary" (click) = "onConfirmOrder()">
+    Confirm Order
+  </button>
+</div>

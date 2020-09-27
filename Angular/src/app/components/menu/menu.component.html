@@ -1,0 +1,66 @@
+<h1 class="heading">
+  Menu
+</h1>
+<div>
+    <button type="button" class="btn btn-primary" (click) = "goToMakePizza()">
+        Make Pizza of Your choice
+    </button>
+  <br>
+  <br>
+  <div class="split left">     
+      <div class="centered imagePosition">
+        <h2>Size : Regular</h2>
+       
+          <div class="imagediv" *ngFor="let item of (menu | filterimages : 'Regular')">
+
+            <img [height]="170" 
+            [width]="240" [src]="'assets/images/'+item.Name+'.jpeg'">
+            <p>{{item.Name}}</p>
+            <P>{{item.Price | currency:'INR'}}</P>
+              <button type="button" class="btn btn-primary" (click) = "removeItem(item)">
+                -
+              </button>
+              <button type="button" class="btn btn-primary" (click) = "addItem(item)">
+                  +
+              </button>
+          </div>
+       
+        <br>
+        <h2>Size : Medium</h2>
+        <div class="imagediv" *ngFor="let item of (menu | filterimages : 'Medium')">
+            <img [height]="170" 
+            [width]="240" [src]="'assets/images/'+item.Name+'.jpeg'">
+            <p>{{item.Name}}</p>
+            <P>{{item.Price | currency:'INR'}}</P>
+            
+              <button type="button" class="btn btn-primary" (click) = "removeItem(item)">
+                -
+              </button>
+              <button type="button" class="btn btn-primary" (click) = "addItem(item)">
+                  +
+              </button>
+          </div>
+          <br>
+          <h2>Size : Large</h2>
+          <div class="imagediv" *ngFor="let item of (menu | filterimages : 'Large')">
+            <img [height]="170" 
+            [width]="240" [src]="'assets/images/'+item.Name+'.jpeg'">
+            <p>{{item.Name}}</p>
+            <P>{{item.Price | currency:'INR'}}</P>
+            
+              <button type="button" class="btn btn-primary" (click) = "removeItem(item)">
+                -
+              </button>
+              <button type="button" class="btn btn-primary" (click) = "addItem(item)">
+                  +
+              </button>
+          </div>
+
+      </div>
+  </div>
+  <div class="split right">
+      <div class="centered">
+          <app-order [orderedItem]="orderItems"></app-order>
+      </div>
+    </div>
+  </div>

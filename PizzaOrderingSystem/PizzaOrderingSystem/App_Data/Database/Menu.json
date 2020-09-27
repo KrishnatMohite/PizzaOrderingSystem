@@ -1,0 +1,149 @@
+[
+    {
+      "Id": 1,
+      "Name": "cheese and corn",
+      "Type": "Veg",
+      "Size": "Regular",
+      "Price": 165
+    },
+    {
+      "Id": 2,
+      "Name": "cheese and corn",
+      "Type": "Veg",
+      "Size": "Medium",
+      "Price": 305
+    },
+    {
+      "Id": 3,
+      "Name": "cheese and corn",
+      "Type": "Veg",
+      "Size": "Large",
+      "Price": 495
+    },
+
+    {
+      "Id": 4,
+      "Name": "cheese and tomato",
+      "Type": "Veg",
+      "Size": "Regular",
+      "Price": 160
+    },
+    {
+      "Id": 5,
+      "Name": "cheese and tomato",
+      "Type": "Veg",
+      "Size": "Medium",
+      "Price": 300
+    },
+    {
+      "Id": 6,
+      "Name": "cheese and tomato",
+      "Type": "Veg",
+      "Size": "Large",
+      "Price": 500
+    },
+
+    {
+      "Id": 7,
+      "Name": "fresh veggie",
+      "Type": "Veg",
+      "Size": "Regular",
+      "Price": 185
+    },
+    {
+      "Id": 8,
+      "Name": "fresh veggie",
+      "Type": "Veg",
+      "Size": "Medium",
+      "Price": 335
+    },
+    {
+      "Id": 9,
+      "Name": "fresh veggie",
+      "Type": "Veg",
+      "Size": "Large",
+      "Price": 535
+    },
+
+    {
+      "Id": 10,
+      "Name": "pepper barbeque chicken",
+      "Type": "non-Veg",
+      "Size": "Regular",
+      "Price": 185
+    },
+    {
+      "Id": 11,
+      "Name": "pepper barbeque chicken",
+      "Type": "non-Veg",
+      "Size": "Medium",
+      "Price": 335
+    },
+    {
+      "Id": 12,
+      "Name": "pepper barbeque chicken",
+      "Type": "non-Veg",
+      "Size": "Large",
+      "Price": 535
+    },
+
+    {
+      "Id": 13,
+      "Name": "chicken golden delight",
+      "Type": "non-Veg",
+      "Size": "Regular",
+      "Price": 235
+    },
+    {
+      "Id": 14,
+      "Name": "chicken golden delight",
+      "Type": "non-Veg",
+      "Size": "Medium",
+      "Price": 450
+    },
+    {
+      "Id": 15,
+      "Name": "chicken golden delight",
+      "Type": "non-Veg",
+      "Size": "Large",
+      "Price": 695
+    },
+
+    {
+      "Id": 13,
+      "Name": "chicken onion barbeque",
+      "Type": "non-Veg",
+      "Size": "Regular",
+      "Price": 235
+    },
+    {
+      "Id": 14,
+      "Name": "chicken onion barbeque",
+      "Type": "non-Veg",
+      "Size": "Medium",
+      "Price": 450
+    },
+    {
+      "Id": 15,
+      "Name": "chicken onion barbeque",
+      "Type": "non-Veg",
+      "Size": "Large",
+      "Price": 695
+    },
+
+    {
+      "Id": 15,
+      "Name": "Butterscotch Mousse Cake",
+      "Type": "Veg",
+      "Size": "other",
+      "Price": 99
+    },
+    {
+      "Id": 15,
+      "Name": "Garlic bread",
+      "Type": "Veg",
+      "Size": "other",
+      "Price": 99
+    }
+
+]

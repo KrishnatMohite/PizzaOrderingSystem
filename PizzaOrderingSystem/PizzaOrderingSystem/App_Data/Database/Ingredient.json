@@ -1,0 +1,84 @@
+ [
+{
+      "Id": 1,
+      "Name": "Crust(small)",
+      "Price": 100
+    },
+{
+      "Id": 2,
+      "Name": "Crust(medium)",
+      "Price": 120
+    },
+{
+      "Id": 3,
+      "Name": "Crust(large)",
+      "Price": 140
+    },
+    
+    {
+      "Id": 4,
+      "Name": "olives",
+      "Price": 80
+    },
+    {
+      "Id": 5,
+      "Name": "peanuts",
+      "Price": 80
+    },
+    {
+      "Id": 6,
+      "Name": "garlic",
+      "Price": 80
+    },
+    {
+      "Id": 7,
+      "Name": "rosemary",
+      "Price": 80
+    },
+    {
+      "Id": 8,
+      "Name": "salmon",
+      "Price": 80
+    },
+    {
+      "Id": 9,
+      "Name": "cookies",
+      "Price": 80
+    },
+    {
+      "Id": 10,
+      "Name": "chocolate",
+      "Price": 80
+    },
+    {
+      "Id": 11,
+      "Name": "Bacon",
+      "Price": 80
+    },
+    {
+      "Id": 12,
+      "Name": "Extra Cheese",
+      "Price": 80
+    },
+    {
+      "Id": 13,
+      "Name": "mushrooms",
+      "Price": 80
+    },
+{
+      "Id": 14,
+      "Name": "Sauce",
+      "Price": 50
+    },
+    {
+      "Id": 15,
+      "Name": "Cheese",
+      "Price": 60
+    },
+    {
+      "Id": 16,
+      "Name": "Ranch",
+      "Price": 80
+    },
+
+  ]

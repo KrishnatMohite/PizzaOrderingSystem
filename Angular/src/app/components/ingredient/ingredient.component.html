@@ -1,0 +1,10 @@
+
+<h2>Select Ingredient</h2>
+
+<mat-selection-list>
+    <mat-list-option *ngFor="let ingredient of ingredientList" (click)="onselectIngredient(ingredient)">
+       {{ingredient.Name}} ({{ingredient.Price | currency:'INR'}})
+    </mat-list-option>
+</mat-selection-list>
+
+

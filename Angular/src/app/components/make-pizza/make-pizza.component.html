@@ -1,0 +1,19 @@
+<h1 class="heading">
+  Make Pizza
+</h1>
+<br>
+<div>
+<div class="split left">
+    <button type="button" class="btn btn-primary" [routerLink]="['/menu']">
+        Back To Menu
+    </button>
+  <div class="centered">
+      <app-ingredient (onSelectEvent) = "onSelectedList($event)"></app-ingredient>
+  </div>
+</div>
+<div class="split right">
+  <div class="centered">
+      <app-order [orderedItem]="orderItems" [orderType]="orderTypeCustome"></app-order>
+  </div>
+</div>
+</div>
